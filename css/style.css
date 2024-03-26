@@ -7623,7 +7623,8 @@ header {
   background-position: center center;
   height: calc(100vh);
   min-height: 700px;
-  position: relative; }
+  position: relative; 
+  overflow: auto;}
   .slider-item:before {
     content: "";
     position: absolute;
