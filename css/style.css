@@ -8266,3 +8266,9 @@ header {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2); }
+
+
+    a[href^="tel:"]:before {
+      content: "\260e";
+      margin-right: 10px;
+    }
