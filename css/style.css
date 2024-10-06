@@ -513,6 +513,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
+  /* max-height: 80%; */
   height: auto;
 }
 
@@ -609,6 +610,13 @@ pre code {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+}
+
+/* Media Query for Mobile Screens */
+@media only screen and (max-width: 600px) {
+  .img-fluid {
+    max-width: 40%; /* Ensure the image scales down for smaller screens */
   }
 }
 
